@@ -10,6 +10,7 @@ const unendedCodeBlock = t`
 `;
 
 // Works
+console.log("unendedCodeBlock");
 console.dir(processor.parse(unendedCodeBlock), { depth: null });
 
 const xmlTag = t`
@@ -18,6 +19,7 @@ const xmlTag = t`
 `;
 
 // Outputs as "html" type
+console.log("xmlTag");
 console.dir(processor.parse(xmlTag), { depth: null });
 
 const unendedXmlTag = t`
@@ -26,6 +28,7 @@ const unendedXmlTag = t`
 `;
 
 // Outputs as "html" type
+console.log("unendedXmlTag");
 console.dir(processor.parse(unendedXmlTag), { depth: null });
 
 const unclosedXmlTag = t`
@@ -34,6 +37,7 @@ const unclosedXmlTag = t`
 `;
 
 // Outputs as "html" type
+console.log("unclosedXmlTag");
 console.dir(processor.parse(unclosedXmlTag), { depth: null });
 
 const unfinishedXmlTag = t`
@@ -42,9 +46,11 @@ const unfinishedXmlTag = t`
 `;
 
 // Outputs as "paragraph" type
+console.log("unfinishedXmlTag");
 console.dir(processor.parse(unfinishedXmlTag), { depth: null });
 
 const xmlBracket = "<";
 
 // Outputs as "paragraph" type
+console.log("xmlBracket");
 console.dir(processor.parse(xmlBracket), { depth: null });
