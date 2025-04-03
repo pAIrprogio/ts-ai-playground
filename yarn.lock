@@ -5,6 +5,70 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@synstack/enhance@npm:1.1.6":
+  version: 1.1.6
+  resolution: "@synstack/enhance@npm:1.1.6"
+  checksum: 10c0/14ccd3db22e4d24ef823ea3d3bc0b0f0c31f927fd8cd001d6b39f3a10122d42633bc54af326d79eb73cd3b8924ccff77e7a12c40412352eb4a5505d1bf8ab652
+  languageName: node
+  linkType: hard
+
+"@synstack/json@npm:1.1.6":
+  version: 1.1.6
+  resolution: "@synstack/json@npm:1.1.6"
+  peerDependencies:
+    zod: "*"
+  checksum: 10c0/95fc5196d1c7d09ca6e0498437744cc57ac8768441e54c58f66ffd9441a575ab8bd0843055df512c1188c58918781bf5ae3176ec69866801b330f894e94bbb79
+  languageName: node
+  linkType: hard
+
+"@synstack/pipe@npm:1.1.8":
+  version: 1.1.8
+  resolution: "@synstack/pipe@npm:1.1.8"
+  dependencies:
+    "@synstack/enhance": "npm:1.1.6"
+  checksum: 10c0/aaaa68d9fd6c64e06a56f337634372953bf0bdcfb526ee2ab5ef91266c1bc32bf1844493afe4ff5ebaa365c1d87c7a45e1ca7856775dc9ee3b40811345947b56
+  languageName: node
+  linkType: hard
+
+"@synstack/resolved@npm:1.2.3":
+  version: 1.2.3
+  resolution: "@synstack/resolved@npm:1.2.3"
+  checksum: 10c0/6b4470851430f5832836a6bafd71cadcac716342d14779d3e37fbb26eeefa0c67573065e18162bd151382c041ddf9368effdfbf4002b49197e659e35cddf7ac6
+  languageName: node
+  linkType: hard
+
+"@synstack/str@npm:1.2.5":
+  version: 1.2.5
+  resolution: "@synstack/str@npm:1.2.5"
+  dependencies:
+    "@synstack/pipe": "npm:1.1.8"
+    change-case: "npm:^5.4.4"
+  checksum: 10c0/4a5c85f4eda511c64afe49172812514ec069a772d3b77e40589ca66af07b56671a951d0a9f572bd991ead106ec549add7a31af8002b5975b9ff22391ea2fbdbd
+  languageName: node
+  linkType: hard
+
+"@synstack/text@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@synstack/text@npm:1.2.0"
+  dependencies:
+    "@synstack/json": "npm:1.1.6"
+    "@synstack/resolved": "npm:1.2.3"
+    "@synstack/str": "npm:1.2.5"
+  checksum: 10c0/c77e24fb5c42e1991d21ed475ced0adda5c2b9ccf20f25395315ecba17ce29088c1ac4524f2654a5f07e2a19a6457067d4d663eae1c0ec1c03a33d10767b546d
+  languageName: node
+  linkType: hard
+
+"@synstack/yaml@npm:^1.1.6":
+  version: 1.1.6
+  resolution: "@synstack/yaml@npm:1.1.6"
+  dependencies:
+    yaml: "npm:^2.7.0"
+  peerDependencies:
+    zod: "*"
+  checksum: 10c0/121d1c65b1c18989dcf0d3685d39263e69a3c0802d9dd57029d4b31afd9f73ee15307651b3e022132e0a7b236d7eb0e7a64a448aff3b19c51158dfa4703066b2
+  languageName: node
+  linkType: hard
+
 "@types/debug@npm:^4.0.0":
   version: 4.1.12
   resolution: "@types/debug@npm:4.1.12"
@@ -57,6 +121,13 @@ __metadata:
   version: 2.0.1
   resolution: "ccount@npm:2.0.1"
   checksum: 10c0/3939b1664390174484322bc3f45b798462e6c07ee6384cb3d645e0aa2f318502d174845198c1561930e1d431087f74cf1fe291ae9a4722821a9f4ba67e574350
+  languageName: node
+  linkType: hard
+
+"change-case@npm:^5.4.4":
+  version: 5.4.4
+  resolution: "change-case@npm:5.4.4"
+  checksum: 10c0/2a9c2b9c9ad6ab2491105aaf506db1a9acaf543a18967798dcce20926c6a173aa63266cb6189f3086e3c14bf7ae1f8ea4f96ecc466fcd582310efa00372f3734
   languageName: node
   linkType: hard
 
@@ -684,6 +755,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ts-playground@workspace:."
   dependencies:
+    "@synstack/text": "npm:^1.2.0"
+    "@synstack/yaml": "npm:^1.1.6"
     "@types/mdast": "npm:^4.0.4"
     "@types/node": "npm:^22.14.0"
     mdast: "npm:^3.0.0"
@@ -692,6 +765,7 @@ __metadata:
     remark-parse: "npm:^11.0.0"
     typescript: "npm:^5.8.2"
     unified: "npm:^11.0.5"
+    zod: "npm:^3.24.2"
   languageName: unknown
   linkType: soft
 
@@ -793,6 +867,22 @@ __metadata:
     "@types/unist": "npm:^3.0.0"
     vfile-message: "npm:^4.0.0"
   checksum: 10c0/e5d9eb4810623f23758cfc2205323e33552fb5972e5c2e6587babe08fe4d24859866277404fb9e2a20afb71013860d96ec806cb257536ae463c87d70022ab9ef
+  languageName: node
+  linkType: hard
+
+"yaml@npm:^2.7.0":
+  version: 2.7.1
+  resolution: "yaml@npm:2.7.1"
+  bin:
+    yaml: bin.mjs
+  checksum: 10c0/ee2126398ab7d1fdde566b4013b68e36930b9e6d8e68b6db356875c99614c10d678b6f45597a145ff6d63814961221fc305bf9242af8bf7450177f8a68537590
+  languageName: node
+  linkType: hard
+
+"zod@npm:^3.24.2":
+  version: 3.24.2
+  resolution: "zod@npm:3.24.2"
+  checksum: 10c0/c638c7220150847f13ad90635b3e7d0321b36cce36f3fc6050ed960689594c949c326dfe2c6fa87c14b126ee5d370ccdebd6efb304f41ef5557a4aaca2824565
   languageName: node
   linkType: hard
 

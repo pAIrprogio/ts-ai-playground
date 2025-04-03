@@ -9,9 +9,12 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
+    "@synstack/text": "^1.2.0",
+    "@synstack/yaml": "^1.1.6",
     "mdast": "^3.0.0",
     "remark-gfm": "^4.0.1",
     "remark-parse": "^11.0.0",
-    "unified": "^11.0.5"
+    "unified": "^11.0.5",
+    "zod": "^3.24.2"
   }
 }
