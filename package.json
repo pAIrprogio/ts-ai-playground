@@ -1,9 +1,14 @@
 {
   "name": "ts-playground",
   "packageManager": "yarn@4.5.2",
+  "type": "module",
   "devDependencies": {
+    "@types/mdast": "^4.0.4",
     "@types/node": "^22.14.0",
     "prettier": "^3.5.3",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "mdast": "^3.0.0"
   }
 }
