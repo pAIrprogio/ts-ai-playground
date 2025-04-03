@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "nodenext",
+    "target": "ESNext",
+    "module": "NodeNext",
+    "noEmit": true,
+
+    // Node Next
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+    "verbatimModuleSyntax": true,
+
+    // Common JS interop
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    // Source + Types
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    // Decorators
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
+
+    // Modules
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+
+    // Output
+    "pretty": true,
+
+    // Safety
+    "strict": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "exclude": ["node_modules", "dist"]
+}

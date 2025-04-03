@@ -1,4 +1,8 @@
 {
   "name": "ts-playground",
-  "packageManager": "yarn@4.5.2"
+  "packageManager": "yarn@4.5.2",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.2"
+  }
 }
