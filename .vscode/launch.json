@@ -9,6 +9,7 @@
       "type": "node",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
+      "runtimeArgs": ["--experimental-strip-types", "--no-warnings"],
       "program": "${file}"
     }
   ]
