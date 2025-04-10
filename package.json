@@ -1,20 +1,23 @@
 {
-  "name": "ts-playground",
+  "name": "ts-ai-playground",
   "packageManager": "yarn@4.5.2",
   "type": "module",
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.2.9",
+    "@ai-sdk/google": "^1.2.10",
+    "@ai-sdk/openai": "^1.3.9",
+    "@synstack/fs": "^1.4.10",
+    "@synstack/fs-cache": "^1.4.11",
+    "@synstack/llm": "^2.1.11",
+    "@synstack/text": "^1.2.1",
+    "@synstack/xml": "^1.2.9",
+    "ai": "^4.3.4",
+    "ts-pattern": "^5.7.0",
+    "zod": "^3.24.2"
+  },
   "devDependencies": {
-    "@types/mdast": "^4.0.4",
     "@types/node": "^22.14.0",
     "prettier": "^3.5.3",
     "typescript": "^5.8.2"
-  },
-  "dependencies": {
-    "@synstack/text": "^1.2.0",
-    "@synstack/yaml": "^1.1.6",
-    "mdast": "^3.0.0",
-    "remark-gfm": "^4.0.1",
-    "remark-parse": "^11.0.0",
-    "unified": "^11.0.5",
-    "zod": "^3.24.2"
   }
 }

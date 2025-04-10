@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "bierner.markdown-mermaid",
+    "YoavBls.pretty-ts-errors",
+    "Orta.vscode-twoslash-queries",
+    "redhat.vscode-yaml",
+    "redhat.vscode-xml"
+  ]
+}

@@ -9,7 +9,7 @@
       "type": "node",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
-      "runtimeArgs": ["--experimental-strip-types", "--no-warnings"],
+      "runtimeArgs": ["--experimental-strip-types", "--no-warnings", "--env-file=.env"],
       "program": "${file}"
     }
   ]
