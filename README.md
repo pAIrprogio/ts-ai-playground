@@ -22,6 +22,7 @@ code .
   - `ANTHROPIC_API_KEY`
   - `OPENAI_API_KEY`
   - `GOOGLE_GENERATIVE_AI_API_KEY`
+- Install the recommended extensions in VSCode
 - The VSCode debugger is pre-configured to run the active file
 
 ## Local Data
