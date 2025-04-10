@@ -38,3 +38,4 @@ code .
 - [@synstack/\*](https://github.com/pairprogio/synscript): LLM scripting utilities
 - [ts-pattern](https://github.com/gvergnaud/ts-pattern): TypeScript pattern matching
 - [zod](https://github.com/colinhacks/zod): TypeScript schema declaration and validation
+- [wretch](https://github.com/elbywan/wretch): Immutable HTTP client
