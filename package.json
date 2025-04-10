@@ -2,6 +2,10 @@
   "name": "ts-ai-playground",
   "packageManager": "yarn@4.5.2",
   "type": "module",
+  "scripts": {
+    "test:evals": "evalite",
+    "test:evals:watch": "evalite watch"
+  },
   "dependencies": {
     "@ai-sdk/anthropic": "^1.2.9",
     "@ai-sdk/google": "^1.2.10",
@@ -17,7 +21,10 @@
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "autoevals": "^0.0.127",
+    "evalite": "^0.10.0",
     "prettier": "^3.5.3",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "vitest": "2"
   }
 }

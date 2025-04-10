@@ -34,6 +34,7 @@ code .
 
 - [ai](https://github.com/vercel/ai): Vercel AI SDK
 - [@ai-sdk/\*](https://sdk.vercel.ai/providers/ai-sdk-providers): Vercel AI SDK Providers
+- [evalite](https://www.evalite.dev/): Evals as unit tests
 - [@synstack/\*](https://github.com/pairprogio/synscript): LLM scripting utilities
 - [ts-pattern](https://github.com/gvergnaud/ts-pattern): TypeScript pattern matching
 - [zod](https://github.com/colinhacks/zod): TypeScript schema declaration and validation
